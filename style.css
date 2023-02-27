@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background: #a02222;
 }
 
 main>section.items h4 {
@@ -95,28 +96,4 @@ section.summary table {
 section.summary table tbody tr:last-of-type th {
     border-top: 1px solid black;
     padding-top: 4px;
-}
-
-
-/* ___________________ */
-
-@keyframes animate {
-    0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 0;
-    }
-    100% {
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
-}
-
-body {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: #a02222;
-    overflow: hidden;
 }
